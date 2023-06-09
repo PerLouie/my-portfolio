@@ -748,3 +748,245 @@
     margin: auto;
   }
 }
+
+@media (max-width: 450px) {
+  header {
+    padding: 40px 20px 20px 20px;
+  }
+
+  header #header-name {
+    font-size: 10px;
+  }
+
+  #header-list ul li {
+    font-size: 14px;
+  }
+
+  #content-name #username {
+    font-size: 25px;
+  }
+
+  #content-name #user-description {
+    font-size: 20px;
+  }
+
+  #content-name #user-image img {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+  }
+
+  svg {
+    width: 450px;
+    margin: 20px auto 0 auto;
+  }
+
+  #user-fullinfo {
+    padding: 25px;
+  }
+
+  #user-fullinfo h1 {
+    font-size: 20px;
+  }
+
+  #user-fullinfo p {
+    font-size: 18px;
+    padding: 0;
+  }
+
+  #user-skills {
+    flex-direction: column;
+    justify-content: start;
+    height: 470vh;
+    width: 85%;
+    margin-top: -220px;
+  }
+
+  #user-skills #tools {
+    width: auto;
+    border: none;
+    border-bottom: 1px solid white;
+    padding-bottom: 50px;
+  }
+
+  #user-skills #techstack {
+    width: auto;
+    border-bottom: 1px solid white;
+    padding-bottom: 50px;
+  }
+
+  #user-skills #others {
+    width: auto;
+    border: none;
+  }
+
+  #recent-work {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #recent-work h1 {
+    font-size: 25px;
+  }
+
+  #recent-work p {
+    font-size: 20px;
+  }
+
+  #start-project {
+    width: 85%;
+    margin-top: 20px;
+    align-items: center;
+  }
+
+  #start-project #start {
+    font-size: 15px;
+  }
+
+  #start-project #interested {
+    width: 70%;
+    font-size: 15px;
+  }
+
+  #start-project #dothis {
+    width: 40%;
+  }
+
+  #start,
+  #interested,
+  #dothis {
+    margin-top: 10px;
+  }
+
+  footer #quotes {
+    width: 80%;
+    margin: auto;
+  }
+}
+
+@media (max-width: 401px) {
+  header {
+    padding: 40px 17px 20px 15px;
+    display: flex;
+  }
+
+  header #header-name {
+    font-size: 8px;
+  }
+
+  #header-list ul li {
+    font-size: 12px;
+    margin-left: 4px;
+  }
+
+  #contact{
+    padding: 5px;
+  }
+
+  #content-name #username {
+    font-size: 25px;
+  }
+
+  #content-name #user-description {
+    font-size: 20px;
+  }
+
+  #content-name #user-image img {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+  }
+
+  svg {
+    width: 350px;
+    margin: 20px auto 0 auto;
+  }
+
+  #user-fullinfo {
+    padding: 25px;
+  }
+
+  #user-fullinfo h1 {
+    font-size: 20px;
+  }
+
+  #user-fullinfo p {
+    font-size: 18px;
+    padding: 0;
+  }
+
+  #user-skills {
+    flex-direction: column;
+    justify-content: start;
+    height: 470vh;
+    width: 85%;
+    margin-top: -220px;
+  }
+
+  #user-skills #tools {
+    width: auto;
+    border: none;
+    border-bottom: 1px solid white;
+    padding-bottom: 50px;
+  }
+
+  #user-skills #techstack {
+    width: auto;
+    border-bottom: 1px solid white;
+    padding-bottom: 50px;
+  }
+
+  #user-skills #others {
+    width: auto;
+    border: none;
+  }
+
+  #recent-work {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #recent-work h1 {
+    font-size: 25px;
+  }
+
+  #recent-work p {
+    font-size: 20px;
+  }
+
+  #start-project {
+    width: 85%;
+    margin-top: 20px;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+  }
+
+  #start-project #start {
+    font-size: 20px;
+    width: auto
+  }
+
+  #start-project #interested {
+    width: 70%;
+    font-size: 15px;
+    text-align: center;
+  }
+
+  #start-project #dothis {
+    width: 40%;
+  }
+
+  #start,
+  #interested,
+  #dothis {
+    margin-top: 10px;
+  }
+
+  footer #quotes {
+    width: 80%;
+    margin: auto;
+  }
+}
